@@ -1,7 +1,7 @@
 # VideoGameProject2025
 My final game project for Video Game Programming
 
-## Perception Check
+## The Observer
 
 ### Pitch
 *Perception Check* is a 3D hidden object game. The player explores different rooms to find a target item before time runs out. The game starts easy but gets harder with different lighting, like a dark graveyard or a very bright park. The game ends with a surprise twist.
