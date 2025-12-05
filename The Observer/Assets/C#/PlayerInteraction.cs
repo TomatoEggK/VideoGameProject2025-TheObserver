@@ -7,6 +7,11 @@ public class PlayerInteraction : MonoBehaviour
     // The maximum distance to interact.
     public float interactDistance = 3f;
 
+    public GameLevelManager gameManager;
+    void Start()
+    {
+        gameManager = FindObjectOfType<GameLevelManager>();
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -29,7 +34,13 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Debug.Log("Item Found!");
                 Destroy(hit.collider.gameObject);
+
+                if (gameManager != null)
+                {
+                    gameManager.LevelComplete();
+                }
             }
+
         }
     }
 }
