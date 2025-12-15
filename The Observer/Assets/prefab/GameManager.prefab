@@ -48,6 +48,7 @@ MonoBehaviour:
   totalTime: 60
   timerText: {fileID: 0}
   messageText: {fileID: 0}
+  restartButton: {fileID: 0}
 --- !u!114 &2836202473861496371
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,7 +11,9 @@ public class GameLevelManager : MonoBehaviour
     public TMP_Text timerText;
     public TMP_Text messageText;
 
-    private bool isGameActive = true;
+    public bool isGameActive = true;
+
+    public GameObject restartButton;
 
     void Update()
     {
@@ -37,12 +39,21 @@ public class GameLevelManager : MonoBehaviour
     public void GameOver()
     {
         isGameActive = false;
-        messageText.text = "Time's Out! Game is Over!";
+        messageText.text = "Time's Out!";
         messageText.gameObject.SetActive(true);
 
-        Invoke("RestartLevel", 3f);
-    }
+        if (restartButton != null)
+        {
+            restartButton.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
 
+    }
+    public void OnRestartClicked()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void LevelComplete()
     {
         isGameActive = false;
@@ -61,11 +72,6 @@ public class GameLevelManager : MonoBehaviour
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
             SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            Debug.Log("Congratulations on clearing all levels! Back to the first level soon.!");
-            SceneManager.LoadScene(0); 
         }
     }
     void RestartLevel()

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cc153629ce83bc24a8c8379e20903885
+  - enabled: 1
     path: Assets/Scenes/Level0_Tutorial.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -17,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level 3/Scene/Level3_Mine.unity
     guid: 117fd0fe1401a1148a97cb9de246ad0a
+  - enabled: 1
+    path: Assets/Scenes/level 4/Level4_RedRoom.unity
+    guid: 9e3294bddd7ecc7418a2a6e921eb77d5
+  - enabled: 1
+    path: Assets/Scenes/CommonEndScene.unity
+    guid: d9e448ed2df5d0d4dafd0770198b182c
+  - enabled: 1
+    path: Assets/Scenes/MirrorEndScene.unity
+    guid: 30f3755f26adcba4790acebf85a7ddea
   m_configObjects: {}

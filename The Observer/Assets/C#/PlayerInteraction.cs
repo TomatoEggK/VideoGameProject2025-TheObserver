@@ -14,6 +14,11 @@ public class PlayerInteraction : MonoBehaviour
     }
     void Update()
     {
+        if (gameManager != null && gameManager.isGameActive == false)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             TryInteract();
@@ -32,6 +37,20 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (hit.collider.CompareTag("Interactable"))
             {
+                MirrorEnding ending = hit.collider.GetComponent<MirrorEnding>();
+                if (ending != null)
+                {
+                    ending.TriggerEnding();
+                    return;
+                }
+
+                CommonEnding door = hit.collider.GetComponent<CommonEnding>();
+                if (door != null)
+                {
+                    door.TriggerNormalEnding();
+                    return;
+                }
+
                 Debug.Log("Item Found!");
                 Destroy(hit.collider.gameObject);
 
@@ -42,5 +61,6 @@ public class PlayerInteraction : MonoBehaviour
             }
 
         }
+
     }
 }
