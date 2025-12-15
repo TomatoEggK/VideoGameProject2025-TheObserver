@@ -57,7 +57,7 @@ public class GameLevelManager : MonoBehaviour
     public void LevelComplete()
     {
         isGameActive = false;
-        messageText.text = "Success!";
+        messageText.text = "Item Found!";
         messageText.gameObject.SetActive(true);
 
         Invoke("LoadNextLevel", 2f);
