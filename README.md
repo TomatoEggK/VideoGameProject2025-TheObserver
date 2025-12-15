@@ -5,7 +5,7 @@ My final game project for Video Game Programming
 ### How to Play
 * **Objective:** Find the hidden **Keycard** in the environment before the timer runs out. 
 
-## 2. Screenshots
+## Screenshots
 ### Tutorial
 <img width="1306" height="699" alt="Tutorial" src="https://github.com/user-attachments/assets/818549ce-b97a-4b6b-b0ce-263c6e6e431b" />
 ### Level 1: The Room
@@ -16,6 +16,9 @@ My final game project for Video Game Programming
 <img width="1306" height="699" alt="Mine" src="https://github.com/user-attachments/assets/26f5da94-970c-4af1-977b-a690e7d4fb99" />
 ### Level 4: The Final Room
 <img width="1306" height="699" alt="RedRoom" src="https://github.com/user-attachments/assets/d950e9ec-cee1-4027-92dc-58a71655e412" />
+
+## What I learned
+Through making this game, I have a deeper understanding of the Unity Engine and the scripts, especially for lighting function and scene management system. The post-Processing would be the most difficult part to learn and use that to add some vision effects on the player's camera such as increasing bloom to make the player's vision blurry under the effect of the Sun in the park. Also, I found that it is important to create the atmosphere since the atmosphere would enhance the sense of immersion. The most meaningful thing is that I learned how to make a game, and I had the sense of achievement from carefully creating a game on my own, even if I spent a lot of time on revising and planning.
 
 ### Pitch
 **The Observer** is a FPS puzzle game. You play as a test subject trapped in a looping simulation. Your goal is to complete the "observation tests" assigned by the System.
