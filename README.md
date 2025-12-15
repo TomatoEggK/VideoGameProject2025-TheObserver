@@ -6,16 +6,16 @@ My final game project for Video Game Programming
 * **Objective:** Find the hidden **Keycard** in the environment before the timer runs out. 
 
 ## 2. Screenshots
-###Tutorial
-(<img width="1306" height="699" alt="Tutorial" src="https://github.com/user-attachments/assets/818549ce-b97a-4b6b-b0ce-263c6e6e431b" />)
+### Tutorial
+<img width="1306" height="699" alt="Tutorial" src="https://github.com/user-attachments/assets/818549ce-b97a-4b6b-b0ce-263c6e6e431b" />
 ### Level 1: The Room
-(<img width="1305" height="660" alt="Room" src="https://github.com/user-attachments/assets/9d22b7fa-3a1f-4b74-9b91-d6abfc117f4c" />)
+<img width="1305" height="660" alt="Room" src="https://github.com/user-attachments/assets/9d22b7fa-3a1f-4b74-9b91-d6abfc117f4c" />
 ### Level 2: The Park
-(<img width="1306" height="699" alt="Park" src="https://github.com/user-attachments/assets/14c6da40-ffa6-4a41-9b5f-87a409509662" />)
+<img width="1306" height="699" alt="Park" src="https://github.com/user-attachments/assets/14c6da40-ffa6-4a41-9b5f-87a409509662" />
 ### Level 3: The Mine
-(<img width="1306" height="699" alt="Mine" src="https://github.com/user-attachments/assets/26f5da94-970c-4af1-977b-a690e7d4fb99" />)
+<img width="1306" height="699" alt="Mine" src="https://github.com/user-attachments/assets/26f5da94-970c-4af1-977b-a690e7d4fb99" />
 ### Level 4: The Final Room
-(<img width="1306" height="699" alt="RedRoom" src="https://github.com/user-attachments/assets/d950e9ec-cee1-4027-92dc-58a71655e412" />)
+<img width="1306" height="699" alt="RedRoom" src="https://github.com/user-attachments/assets/d950e9ec-cee1-4027-92dc-58a71655e412" />
 
 ### Pitch
 **The Observer** is a FPS puzzle game. You play as a test subject trapped in a looping simulation. Your goal is to complete the "observation tests" assigned by the System.
