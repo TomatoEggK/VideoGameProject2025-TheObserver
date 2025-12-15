@@ -7,7 +7,8 @@ My final game project for Video Game Programming
 
 ## 2. Screenshots
 ###Tutorial
-![Main Menu](<img width="1306" height="699" alt="6c36d17f52811fc9674fb3f9a0d6a3c" src="https://github.com/user-attachments/assets/3172329f-08af-4599-a39f-31978e52f081" />
+![Main Menu](<img width="1306" height="699" alt="Tutorial" src="https://github.com/user-attachments/assets/818549ce-b97a-4b6b-b0ce-263c6e6e431b" />
+
 )
 ### Level 1: The Room
 ![Level 1](<img width="1305" height="660" alt="9f5053ccec4044b141e6796ab0f9a0d" src="https://github.com/user-attachments/assets/0e37a5da-79d2-4183-b073-f9d45779a865" />
